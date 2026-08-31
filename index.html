@@ -41,7 +41,7 @@ Error generating stack: `+e.message+`
   
 <script id="pack-qol-script">
 (function(){
-var REMOVED=["Humble Pie","Beasley’s Chicken + Honey","Wok Haus","Smoothie King — Hillsborough"];
+var REMOVED=["Humble Pie","Beasley’s Chicken + Honey","Wok Haus","Smoothie King"];
 var openOnly=false,compact=false,winner="",busy=false;
 var weekdays=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 function parseHour(token){if(!token)return null;if(/midnight/i.test(token))return 24;var m=token.match(/(\d{1,2})(?::(\d{2}))?\s*(AM|PM)/i);if(!m)return null;var h=+m[1],mins=+(m[2]||0)/60;if(m[3].toUpperCase()==="PM")return(h===12?12:h+12)+mins;if(h===12)return 24+mins;return(h<=5?h+24:h)+mins}
