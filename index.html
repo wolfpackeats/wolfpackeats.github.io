@@ -3,50 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Find restaurants around NC State with Wolfpack Eats.">
+  <meta name="description" content="An independent student restaurant guide for places near NC State University.">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <meta http-equiv="refresh" content="3;url=/app-20260831-starting-point-4.html">
-  <title>Wolfpack Eats | Restaurants Around NC State</title>
+  <meta http-equiv="refresh" content="3;url=/app-20260901-wolf-bites-5.html">
+  <title>Raleigh Wolf Bites | Restaurants Near NC State</title>
   <style>
-    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; }
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      --ink: #172829;
+      --teal: #267c7a;
+      --coral: #e45d4f;
+      --gold: #f2c14e;
+      --cream: #f7f1e8;
+    }
     * { box-sizing: border-box; }
     body {
-      margin: 0; min-height: 100vh; display: grid; place-items: center;
-      background: #f4f1ea; color: #111; padding: 24px;
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      color: var(--ink);
+      background: var(--cream);
     }
     main {
-      width: min(540px, 100%); border: 4px solid #111; background: #fff;
-      box-shadow: 10px 10px 0 #cc0000; padding: 32px;
+      width: min(560px, 100%);
+      padding: 30px;
+      border: 4px solid var(--ink);
+      background: #fffdf8;
+      box-shadow: 10px 10px 0 var(--coral);
     }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .mark { width: 68px; flex: 0 0 68px; }
     .eyebrow {
-      margin: 0 0 10px; color: #cc0000; font-size: .8rem;
-      font-weight: 900; letter-spacing: .16em; text-transform: uppercase;
+      margin: 0 0 8px;
+      color: var(--teal);
+      font-size: .8rem;
+      font-weight: 900;
+      letter-spacing: .15em;
+      text-transform: uppercase;
     }
-    h1 { margin: 0; font-size: clamp(2rem, 10vw, 4rem); line-height: .9; text-transform: uppercase; }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 9vw, 4rem);
+      line-height: .88;
+      text-transform: uppercase;
+    }
     p { margin: 18px 0 0; font-weight: 700; line-height: 1.45; }
-    .bar { height: 10px; margin-top: 24px; background: #ddd; overflow: hidden; }
+    .bar { height: 10px; margin-top: 24px; overflow: hidden; background: #d9e2df; }
     .bar::before {
-      content: ""; display: block; width: 45%; height: 100%; background: #cc0000;
+      content: "";
+      display: block;
+      width: 45%;
+      height: 100%;
+      background: var(--teal);
       animation: load 1s ease-in-out infinite alternate;
     }
     @keyframes load { to { transform: translateX(125%); } }
-    a { color: #b00000; }
-    @media (prefers-reduced-motion: reduce) { .bar::before { animation: none; width: 100%; } }
+    a { color: #126361; }
+    @media (prefers-reduced-motion: reduce) { .bar::before { width: 100%; animation: none; } }
   </style>
 </head>
 <body>
   <main aria-live="polite">
-    <p class="eyebrow">Wolfpack Eats</p>
-    <h1>Loading the latest Pack</h1>
-    <p>Getting the newest restaurant list and interface. Advanced Privacy Protection can stay on.</p>
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 120 120" role="img" aria-label="Geometric wolf profile">
+        <path fill="#172829" d="M16 94 30 42 20 18 50 31 73 18 77 39 104 53 86 65 96 95 60 108Z"/>
+        <path fill="#267c7a" d="m30 42 20-11 10 28-28 24Z"/>
+        <path fill="#3b9893" d="m50 31 23-13 4 21-17 20Z"/>
+        <path fill="#e45d4f" d="m60 59 17-20 27 14-25 18Z"/>
+        <path fill="#f2c14e" d="m60 59 19 12 17 24-36 13Z"/>
+        <path fill="#f7f1e8" d="m79 71 25-18-18 12Z"/>
+        <circle cx="76" cy="50" r="3.5" fill="#f7f1e8"/>
+      </svg>
+      <div>
+        <p class="eyebrow">Raleigh Wolf Bites</p>
+        <h1>Loading the latest bites</h1>
+      </div>
+    </div>
+    <p>Opening the newest restaurant list and interface. Safari Advanced Privacy Protection can stay on.</p>
     <div class="bar" aria-hidden="true"></div>
-    <noscript><p><a href="/app-20260831-starting-point-4.html">Open Wolfpack Eats</a></p></noscript>
+    <noscript><p><a href="/app-20260901-wolf-bites-5.html">Open Raleigh Wolf Bites</a></p></noscript>
   </main>
   <script>
     (() => {
-      const fallback = "/app-20260831-starting-point-4.html";
+      const fallback = "/app-20260901-wolf-bites-5.html";
       const valid = (path) =>
         typeof path === "string" && /^\/app-[a-z0-9-]+\.html$/i.test(path);
       fetch("/version.json?check=" + Date.now(), { cache: "no-store" })
