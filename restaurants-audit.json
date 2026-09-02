@@ -1,0 +1,1547 @@
+{
+  "release": "2026-09-02-labs-6",
+  "generatedAt": "2026-09-02T17:52:29.862Z",
+  "count": 110,
+  "restaurants": [
+    {
+      "name": "Ajisai Japanese Fusion",
+      "cuisine": "Japanese • Sushi",
+      "address": "427 Woodburn Rd",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "sushi",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Ajisai%20Japanese%20Fusion%2C%20427%20Woodburn%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Akari Express",
+      "cuisine": "Japanese",
+      "address": "2233 Avent Ferry Rd",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "quick",
+        "bowls"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Akari%20Express%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Sat closed",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Al Baraka Market & Grill",
+      "cuisine": "Mediterranean • Bakery",
+      "address": "3815 Hillsborough St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "halal",
+        "market"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Al%20Baraka%20Market%20%26%20Grill%2C%203815%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat midnight",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Amedeo’s",
+      "cuisine": "Italian",
+      "address": "3905 Western Blvd",
+      "price": 2,
+      "wait": 30,
+      "tags": [
+        "icon",
+        "family dinner"
+      ],
+      "href": "https://amedeosrestaurant.com/",
+      "closing": "9 PM • Fri–Sat 9:30 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Baja Burrito",
+      "cuisine": "California-style Mexican",
+      "address": "2109 Avent Ferry Rd",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "campus staple",
+        "value"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Baja%20Burrito%2C%202109%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Beansprout",
+      "cuisine": "Chinese",
+      "address": "3721 Hillsborough St",
+      "price": 1,
+      "wait": 18,
+      "tags": [
+        "value",
+        "takeout"
+      ],
+      "href": "https://beansproutraleighnc.com/",
+      "closing": "10 PM • Fri–Sat 10:30 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Beignets & Brew",
+      "cuisine": "Café • Desserts",
+      "address": "3001 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "coffee",
+        "dessert"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Beignets%20%26%20Brew%2C%203001%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Benelux Café",
+      "cuisine": "Café • Waffles",
+      "address": "402 Oberlin Rd",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "brunch",
+        "coffee"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Benelux%20Caf%C3%A9%2C%20402%20Oberlin%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "4:30 PM • weekends 5 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Bida Manda",
+      "cuisine": "Laotian",
+      "address": "222 S Blount St",
+      "price": 3,
+      "wait": 34,
+      "tags": [
+        "date night",
+        "shareable"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Bida%20Manda%2C%20222%20S%20Blount%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Sun 9 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Blend Raleigh",
+      "cuisine": "Smoothies • Açaí",
+      "address": "1908 Hillsborough St",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "healthy-ish",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Blend%20Raleigh%2C%201908%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "5 PM • weekends earlier",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Brewery Bhavana",
+      "cuisine": "Dim sum • Brewery",
+      "address": "218 S Blount St",
+      "price": 3,
+      "wait": 34,
+      "tags": [
+        "icon",
+        "shareable"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Brewery%20Bhavana%2C%20218%20S%20Blount%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Brickhouse Sports Bar",
+      "cuisine": "American • Sports bar",
+      "address": "3801 Hillsborough St, Suite 135",
+      "price": 2,
+      "wait": 22,
+      "tags": [
+        "game day",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Brickhouse%20Sports%20Bar%2C%203801%20Hillsborough%20St%2C%20Suite%20135%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM • later Fri–Sat",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Bruegger’s Bagels — Hillsborough",
+      "cuisine": "Bagels • Breakfast",
+      "address": "2302 Hillsborough St",
+      "price": 1,
+      "wait": 9,
+      "tags": [
+        "breakfast",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Bruegger%E2%80%99s%20Bagels%20%E2%80%94%20Hillsborough%2C%202302%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "2 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Bruegger’s Bagels — Mission Valley",
+      "cuisine": "Bagels • Breakfast",
+      "address": "2231 Avent Ferry Rd",
+      "price": 1,
+      "wait": 9,
+      "tags": [
+        "breakfast",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Bruegger%E2%80%99s%20Bagels%20%E2%80%94%20Mission%20Valley%2C%202231%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "2 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Bul Box",
+      "cuisine": "Asian fusion",
+      "address": "2526 Hillsborough St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "bowls",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Bul%20Box%2C%202526%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "8 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Burger King — Mission Valley",
+      "cuisine": "Burgers",
+      "address": "2241 Avent Ferry Rd",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "drive-thru",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Burger%20King%20%E2%80%94%20Mission%20Valley%2C%202241%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "Midnight daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Bussin Pizza & Italian Kitchen",
+      "cuisine": "Pizza • Italian",
+      "address": "3209 Hillsborough St",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "pizza",
+        "late night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Bussin%20Pizza%20%26%20Italian%20Kitchen%2C%203209%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9:30 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Caffe Luna",
+      "cuisine": "Italian",
+      "address": "136 E Hargett St",
+      "price": 2,
+      "wait": 26,
+      "tags": [
+        "date night",
+        "classic"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Caffe%20Luna%2C%20136%20E%20Hargett%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Cantina 18",
+      "cuisine": "Southwestern",
+      "address": "433 Daniels St",
+      "price": 2,
+      "wait": 22,
+      "tags": [
+        "tacos",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Cantina%2018%2C%20433%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9:30 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Cape Fear Seafood Company",
+      "cuisine": "Seafood",
+      "address": "2018 Clark Ave",
+      "price": 3,
+      "wait": 28,
+      "tags": [
+        "seafood",
+        "sit-down"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Cape%20Fear%20Seafood%20Company%2C%202018%20Clark%20Ave%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "CAVA — Village District",
+      "cuisine": "Mediterranean fast-casual",
+      "address": "2001 Cameron St",
+      "price": 1,
+      "wait": 11,
+      "tags": [
+        "bowls",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=CAVA%20%E2%80%94%20Village%20District%2C%202001%20Cameron%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Centro",
+      "cuisine": "Mexican",
+      "address": "106 S Wilmington St",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "local",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Centro%2C%20106%20S%20Wilmington%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Char-Grill",
+      "cuisine": "Burgers",
+      "address": "618 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "classic",
+        "quick"
+      ],
+      "href": "https://www.chargrillusa.com/locations/raleigh-hillsborough/",
+      "closing": "11 PM • Fri–Sat midnight",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Cheeni Chai + Coffee + Tiffin",
+      "cuisine": "Indian café",
+      "address": "1603 Hillsborough St",
+      "price": 2,
+      "wait": 14,
+      "tags": [
+        "coffee",
+        "vegetarian"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Cheeni%20Chai%20%2B%20Coffee%20%2B%20Tiffin%2C%201603%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "7:30 PM • hours vary",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Chick-fil-A — Village District",
+      "cuisine": "Chicken",
+      "address": "2000 Cameron St",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "chicken",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Chick-fil-A%20%E2%80%94%20Village%20District%2C%202000%20Cameron%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Sun closed",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Chicken Bee",
+      "cuisine": "Korean fried chicken",
+      "address": "2237 Avent Ferry Rd, Suite 105",
+      "price": 2,
+      "wait": 25,
+      "tags": [
+        "shareable",
+        "crispy"
+      ],
+      "href": "https://missionvalleysc.com/storefront/chicken-bee/",
+      "closing": "8:30 PM • Sun 6:30 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "China Queen",
+      "cuisine": "Chinese",
+      "address": "2233 Avent Ferry Rd",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "takeout",
+        "value"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=China%20Queen%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "9:30 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Chipotle — Hillsborough",
+      "cuisine": "Mexican fast-casual",
+      "address": "2316 Hillsborough St",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "quick",
+        "bowls"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Chipotle%20%E2%80%94%20Hillsborough%2C%202316%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Chopt — Village District",
+      "cuisine": "Salads • Bowls",
+      "address": "420 Daniels St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "healthy-ish",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Chopt%20%E2%80%94%20Village%20District%2C%20420%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Sun 8 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Cloos’ Coney Island",
+      "cuisine": "Hot dogs • Diner",
+      "address": "2233 Avent Ferry Rd",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "classic",
+        "campus staple"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Cloos%E2%80%99%20Coney%20Island%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "8:30 PM • Thu–Sat 9 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Clyde Cooper’s Barbeque",
+      "cuisine": "North Carolina barbecue",
+      "address": "327 S Wilmington St",
+      "price": 1,
+      "wait": 20,
+      "tags": [
+        "icon",
+        "value"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Clyde%20Cooper%E2%80%99s%20Barbeque%2C%20327%20S%20Wilmington%20St%2C%20Raleigh%2C%20NC",
+      "closing": "8 PM • Mon/Sun 5 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Coco Bongo",
+      "cuisine": "Mexican",
+      "address": "2400 Hillsborough St",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "taco Tuesday",
+        "groups"
+      ],
+      "href": "https://cocobongonc.com/",
+      "closing": "10 PM • Sun 9 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Coffee woRx",
+      "cuisine": "Coffee • Ice cream",
+      "address": "927 W Morgan St",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "coffee",
+        "dessert"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Coffee%20woRx%2C%20927%20W%20Morgan%20St%2C%20Raleigh%2C%20NC",
+      "closing": "7 PM • Sat 6 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Cook Out",
+      "cuisine": "Burgers • Shakes",
+      "address": "3930 Western Blvd",
+      "price": 1,
+      "wait": 20,
+      "tags": [
+        "drive-thru",
+        "late night"
+      ],
+      "href": "https://cookout.com/",
+      "closing": "4 AM • Fri–Sat 5 AM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Cup A Joe",
+      "cuisine": "Coffeehouse",
+      "address": "3100 Hillsborough St",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "coffee",
+        "study spot"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Cup%20A%20Joe%2C%203100%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "7 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "D.P. Dough",
+      "cuisine": "Calzones",
+      "address": "2109 Avent Ferry Rd",
+      "price": 1,
+      "wait": 20,
+      "tags": [
+        "late night",
+        "delivery"
+      ],
+      "href": "https://www.dpdough.com/",
+      "closing": "4 AM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Death & Taxes",
+      "cuisine": "Wood-fired American",
+      "address": "105 W Hargett St",
+      "price": 3,
+      "wait": 40,
+      "tags": [
+        "fine dining",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Death%20%26%20Taxes%2C%20105%20W%20Hargett%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Figulina Pasta + Provisions",
+      "cuisine": "Italian • Pasta",
+      "address": "317 S Harrington St",
+      "price": 3,
+      "wait": 32,
+      "tags": [
+        "pasta",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Figulina%20Pasta%20%2B%20Provisions%2C%20317%20S%20Harrington%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Sun 9 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Global Village Organic Coffee",
+      "cuisine": "Coffeehouse",
+      "address": "2428 Hillsborough St",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "coffee",
+        "study spot"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Global%20Village%20Organic%20Coffee%2C%202428%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "6 PM • Sat 4 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Gonza Tacos y Tequila",
+      "cuisine": "Colombian • Mexican",
+      "address": "2100 Hillsborough St",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "date night",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Gonza%20Tacos%20y%20Tequila%2C%202100%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9:30 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Goodberry’s",
+      "cuisine": "Frozen custard",
+      "address": "2042 Clark Ave",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "dessert",
+        "local"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Goodberry%E2%80%99s%2C%202042%20Clark%20Ave%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Gravy",
+      "cuisine": "Italian-American",
+      "address": "135 S Wilmington St",
+      "price": 2,
+      "wait": 28,
+      "tags": [
+        "pasta",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Gravy%2C%20135%20S%20Wilmington%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Guasaca",
+      "cuisine": "Venezuelan-inspired",
+      "address": "2512 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "vegan options",
+        "quick"
+      ],
+      "href": "https://guasaca.com/",
+      "closing": "9 PM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Gym Tacos",
+      "cuisine": "Mexican • Street food",
+      "address": "3701 Hillsborough St",
+      "price": 1,
+      "wait": 15,
+      "tags": [
+        "late night",
+        "casual"
+      ],
+      "href": "https://gymtacosnc.com/",
+      "closing": "10 PM • Fri–Sat midnight",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Hibachi & Company",
+      "cuisine": "Japanese",
+      "address": "2316 Hillsborough St, Suite 108",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "quick",
+        "lunch"
+      ],
+      "href": "https://raleigh.hibachicompany.com/",
+      "closing": "9 PM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Insomnia Cookies",
+      "cuisine": "Cookies • Dessert",
+      "address": "2302 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "dessert",
+        "late night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Insomnia%20Cookies%2C%202302%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "1 AM • Thu–Sat 3 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Irregardless",
+      "cuisine": "Farm-to-table",
+      "address": "901 W Morgan St",
+      "price": 3,
+      "wait": 35,
+      "tags": [
+        "vegetarian",
+        "date night"
+      ],
+      "href": "https://www.irregardless.com/menu",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Jade Garden",
+      "cuisine": "Chinese",
+      "address": "1207 Hillsborough St",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "takeout",
+        "value"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Jade%20Garden%2C%201207%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "3 AM • Fri–Sat 3:30 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Jasmin & Olivz",
+      "cuisine": "Mediterranean",
+      "address": "2430 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "healthy-ish",
+        "quick"
+      ],
+      "href": "https://www.jasminandolivz.com/",
+      "closing": "9 PM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Jasmin & Olivz — Meredith",
+      "cuisine": "Mediterranean",
+      "address": "3801 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "quick",
+        "healthy-ish"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Jasmin%20%26%20Olivz%20%E2%80%94%20Meredith%2C%203801%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Jeni’s Splendid Ice Creams",
+      "cuisine": "Ice cream",
+      "address": "2014 Cameron St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "dessert",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Jeni%E2%80%99s%20Splendid%20Ice%20Creams%2C%202014%20Cameron%20St%2C%20Raleigh%2C%20NC",
+      "closing": "Midnight daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Jersey Mike’s — Hillsborough",
+      "cuisine": "Sandwiches",
+      "address": "2712 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "sandwiches",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Jersey%20Mike%E2%80%99s%20%E2%80%94%20Hillsborough%2C%202712%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Jerusalem Bakery & Grocery",
+      "cuisine": "Middle Eastern • Bakery",
+      "address": "2233 Avent Ferry Rd",
+      "price": 1,
+      "wait": 13,
+      "tags": [
+        "halal",
+        "bakery"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Jerusalem%20Bakery%20%26%20Grocery%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Jubala Coffee — Aloft",
+      "cuisine": "Coffee • Breakfast",
+      "address": "2100 Hillsborough St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "breakfast",
+        "coffee"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Jubala%20Coffee%20%E2%80%94%20Aloft%2C%202100%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "5 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Kabab and Curry",
+      "cuisine": "Indian",
+      "address": "2418 Hillsborough St",
+      "price": 2,
+      "wait": 20,
+      "tags": [
+        "vegetarian options",
+        "sit-down"
+      ],
+      "href": "https://www.hillsboroughstreet.org/go/kabab-and-curry",
+      "closing": "10 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "La Terraza",
+      "cuisine": "Mexican",
+      "address": "2233 Avent Ferry Rd",
+      "price": 2,
+      "wait": 18,
+      "tags": [
+        "groups",
+        "sit-down"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=La%20Terraza%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Lime & Lemon",
+      "cuisine": "Indian",
+      "address": "105 Friendly Dr",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "sit-down",
+        "vegetarian"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Lime%20%26%20Lemon%2C%20105%20Friendly%20Dr%2C%20Raleigh%2C%20NC",
+      "closing": "9:30 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Longleaf Swine",
+      "cuisine": "Whole-hog barbecue",
+      "address": "300 E Edenton St",
+      "price": 2,
+      "wait": 26,
+      "tags": [
+        "barbecue",
+        "local"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Longleaf%20Swine%2C%20300%20E%20Edenton%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Mon–Tue closed",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Lucky Tree Café",
+      "cuisine": "Coffee • Café",
+      "address": "3801 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "coffee",
+        "local"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Lucky%20Tree%20Caf%C3%A9%2C%203801%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "6 PM • Fri–Sun 8 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Meat & Bite",
+      "cuisine": "Halal • Comfort food",
+      "address": "2908 Hillsborough St",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "halal",
+        "late night"
+      ],
+      "href": "https://www.meatnbite.com/",
+      "closing": "Midnight • Fri–Sat 3 AM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Mitch’s Tavern",
+      "cuisine": "Tavern • American",
+      "address": "2426 Hillsborough St",
+      "price": 1,
+      "wait": 18,
+      "tags": [
+        "icon",
+        "game day"
+      ],
+      "href": "https://mitchstavernraleigh.com/",
+      "closing": "10 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Moe’s Southwest Grill",
+      "cuisine": "Southwestern fast-casual",
+      "address": "506 Daniels St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "burritos",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Moe%E2%80%99s%20Southwest%20Grill%2C%20506%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Möge Tee",
+      "cuisine": "Bubble tea",
+      "address": "2304 Hillsborough St",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "boba",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=M%C3%B6ge%20Tee%2C%202304%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 9:30 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Nafkot Ethiopian",
+      "cuisine": "Ethiopian",
+      "address": "2233 Avent Ferry Rd",
+      "price": 2,
+      "wait": 25,
+      "tags": [
+        "vegetarian",
+        "shareable"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Nafkot%20Ethiopian%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 2 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Nan Xiang Express",
+      "cuisine": "Shanghainese • Dim sum",
+      "address": "3000 Hillsborough St",
+      "price": 2,
+      "wait": 20,
+      "tags": [
+        "dumplings",
+        "sit-down"
+      ],
+      "href": "https://www.nanxiangexpressnc.com/",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Nature’s Juice Bar & Café",
+      "cuisine": "Juice • Bowls",
+      "address": "2808 Hillsborough St",
+      "price": 1,
+      "wait": 9,
+      "tags": [
+        "healthy-ish",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Nature%E2%80%99s%20Juice%20Bar%20%26%20Caf%C3%A9%2C%202808%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "7 PM • Sun 6 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Neomonde Mediterranean — Raleigh",
+      "cuisine": "Lebanese • Mediterranean",
+      "address": "3817 Beryl Rd",
+      "price": 1,
+      "wait": 15,
+      "tags": [
+        "vegetarian",
+        "local"
+      ],
+      "href": "https://www.neomonde.com/raleigh-nc",
+      "closing": "9 PM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Noodles & Company",
+      "cuisine": "Noodles • Pasta",
+      "address": "403 Daniels St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "noodles",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Noodles%20%26%20Company%2C%20403%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Oak City Pizza",
+      "cuisine": "Pizza",
+      "address": "2811 Hillsborough St",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "pizza",
+        "casual"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Oak%20City%20Pizza%2C%202811%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "Midnight • Thu–Sat 2 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Papa John’s — Mission Valley",
+      "cuisine": "Pizza",
+      "address": "2233 Avent Ferry Rd",
+      "price": 1,
+      "wait": 15,
+      "tags": [
+        "pizza",
+        "delivery"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Papa%20John%E2%80%99s%20%E2%80%94%20Mission%20Valley%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "2 AM • Thu–Sat 3 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Parkside",
+      "cuisine": "American",
+      "address": "301 W Martin St",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "brunch",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Parkside%2C%20301%20W%20Martin%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Sun 8 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Penn Station East Coast Subs",
+      "cuisine": "Sandwiches",
+      "address": "3001 Hillsborough St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "sandwiches",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Penn%20Station%20East%20Coast%20Subs%2C%203001%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM • Fri–Sat 2 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Piccola Italia",
+      "cuisine": "Italian",
+      "address": "423 Woodburn Rd",
+      "price": 2,
+      "wait": 25,
+      "tags": [
+        "classic",
+        "family dinner"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Piccola%20Italia%2C%20423%20Woodburn%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 9:30 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Pisco Mar",
+      "cuisine": "Peruvian • Seafood",
+      "address": "2502 Hillsborough St",
+      "price": 2,
+      "wait": 22,
+      "tags": [
+        "seafood",
+        "sit-down"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Pisco%20Mar%2C%202502%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • verify listing",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Pizza Hut — Hillsborough",
+      "cuisine": "Pizza",
+      "address": "3116 Hillsborough St",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "pizza",
+        "delivery"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Pizza%20Hut%20%E2%80%94%20Hillsborough%2C%203116%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM • Fri–Sat midnight",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Playa Bowls",
+      "cuisine": "Açaí • Smoothies",
+      "address": "2526 Hillsborough St",
+      "price": 1,
+      "wait": 9,
+      "tags": [
+        "healthy-ish",
+        "bowls"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Playa%20Bowls%2C%202526%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Player’s Retreat",
+      "cuisine": "American • Pub",
+      "address": "105 Oberlin Rd",
+      "price": 2,
+      "wait": 30,
+      "tags": [
+        "icon",
+        "game day"
+      ],
+      "href": "https://playersretreat.com/menu/",
+      "closing": "Midnight • later Fri–Sat",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Poole’s Diner",
+      "cuisine": "Modern Southern",
+      "address": "428 S McDowell St",
+      "price": 3,
+      "wait": 38,
+      "tags": [
+        "icon",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Poole%E2%80%99s%20Diner%2C%20428%20S%20McDowell%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Postino WineCafe",
+      "cuisine": "Wine café • American",
+      "address": "401 Daniels St",
+      "price": 2,
+      "wait": 20,
+      "tags": [
+        "shareable",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Postino%20WineCafe%2C%20401%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM • Fri–Sat midnight",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Purple Spoon Açaí",
+      "cuisine": "Açaí • Smoothies",
+      "address": "3801 Hillsborough St, Suite 141",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "healthy-ish",
+        "bowls"
+      ],
+      "href": "https://purplespoonacai.com/",
+      "closing": "10 PM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Raising Cane’s — Hillsborough",
+      "cuisine": "Chicken fingers • Fast food",
+      "address": "2420 Hillsborough St",
+      "price": 1,
+      "wait": 18,
+      "tags": [
+        "chicken",
+        "late night"
+      ],
+      "href": "https://locations.raisingcanes.com/nc/raleigh/2420-hillsborough-street",
+      "closing": "2 AM • Fri–Sat 3 AM",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Raleigh Brewing Company",
+      "cuisine": "Brewery • American",
+      "address": "3709 Neil St",
+      "price": 2,
+      "wait": 20,
+      "tags": [
+        "brewery",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Raleigh%20Brewing%20Company%2C%203709%20Neil%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Thu–Fri 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Rise Biscuits",
+      "cuisine": "Biscuits • Breakfast",
+      "address": "530 Daniels St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "breakfast",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Rise%20Biscuits%2C%20530%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "2 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Ruckus Pizza",
+      "cuisine": "Pizza • Bar",
+      "address": "2233 Avent Ferry Rd",
+      "price": 2,
+      "wait": 22,
+      "tags": [
+        "pizza",
+        "late night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Ruckus%20Pizza%2C%202233%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "2 AM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Rush Bowls",
+      "cuisine": "Smoothies • Bowls",
+      "address": "2811 Hillsborough St",
+      "price": 1,
+      "wait": 9,
+      "tags": [
+        "bowls",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Rush%20Bowls%2C%202811%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "7 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Sam Jones BBQ",
+      "cuisine": "North Carolina barbecue",
+      "address": "502 W Lenoir St",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "barbecue",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Sam%20Jones%20BBQ%2C%20502%20W%20Lenoir%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Sun 8:30 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Sammy’s Tap & Grill",
+      "cuisine": "American • Sports bar",
+      "address": "2235 Avent Ferry Rd",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "game day",
+        "campus staple"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Sammy%E2%80%99s%20Tap%20%26%20Grill%2C%202235%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM • Fri–Sat midnight",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Shake Shack — Village District",
+      "cuisine": "Burgers • Shakes",
+      "address": "2010 Cameron St",
+      "price": 1,
+      "wait": 18,
+      "tags": [
+        "burgers",
+        "casual"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Shake%20Shack%20%E2%80%94%20Village%20District%2C%202010%20Cameron%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sun 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Shanghai Express",
+      "cuisine": "Chinese",
+      "address": "2502 Hillsborough St",
+      "price": 1,
+      "wait": 13,
+      "tags": [
+        "takeout",
+        "value"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Shanghai%20Express%2C%202502%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "2:30 AM • Fri–Sat 3 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Sitti",
+      "cuisine": "Lebanese",
+      "address": "137 S Wilmington St",
+      "price": 3,
+      "wait": 28,
+      "tags": [
+        "shareable",
+        "sit-down"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Sitti%2C%20137%20S%20Wilmington%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Slice of N.Y. Pizza",
+      "cuisine": "Pizza • Italian",
+      "address": "2316 Hillsborough St",
+      "price": 1,
+      "wait": 12,
+      "tags": [
+        "pizza",
+        "campus staple"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Slice%20of%20N.Y.%20Pizza%2C%202316%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Snoopy’s Hot Dogs",
+      "cuisine": "Hot dogs • Burgers",
+      "address": "3600 Hillsborough St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "classic",
+        "value"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Snoopy%E2%80%99s%20Hot%20Dogs%2C%203600%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "8 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Sono Sushi",
+      "cuisine": "Japanese • Sushi",
+      "address": "319 Fayetteville St",
+      "price": 3,
+      "wait": 30,
+      "tags": [
+        "sushi",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Sono%20Sushi%2C%20319%20Fayetteville%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Starbucks — Village District",
+      "cuisine": "Coffeehouse",
+      "address": "2105 Cameron St",
+      "price": 1,
+      "wait": 10,
+      "tags": [
+        "coffee",
+        "study spot"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Starbucks%20%E2%80%94%20Village%20District%2C%202105%20Cameron%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Subway — Hillsborough",
+      "cuisine": "Sandwiches",
+      "address": "2020 Hillsborough St",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "sandwiches",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Subway%20%E2%80%94%20Hillsborough%2C%202020%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Sushi Nine",
+      "cuisine": "Japanese • Sushi • Thai",
+      "address": "3812 Western Blvd",
+      "price": 2,
+      "wait": 24,
+      "tags": [
+        "sushi",
+        "groups"
+      ],
+      "href": "https://www.sushinine.com/",
+      "closing": "10 PM daily",
+      "sourceType": "direct"
+    },
+    {
+      "name": "Taverna Agora",
+      "cuisine": "Greek",
+      "address": "326 Hillsborough St",
+      "price": 2,
+      "wait": 28,
+      "tags": [
+        "rooftop",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Taverna%20Agora%2C%20326%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Tazza Kitchen",
+      "cuisine": "Wood-fired American",
+      "address": "432 Woodburn Rd",
+      "price": 2,
+      "wait": 26,
+      "tags": [
+        "date night",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Tazza%20Kitchen%2C%20432%20Woodburn%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Fri–Sat 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "The Cookie People",
+      "cuisine": "Cookies • Dessert",
+      "address": "2237 Avent Ferry Rd",
+      "price": 1,
+      "wait": 8,
+      "tags": [
+        "dessert",
+        "local"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=The%20Cookie%20People%2C%202237%20Avent%20Ferry%20Rd%2C%20Raleigh%2C%20NC",
+      "closing": "4 PM • Wed–Sat only",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "The Fiction Kitchen",
+      "cuisine": "Vegetarian • Vegan",
+      "address": "428 S Dawson St",
+      "price": 2,
+      "wait": 28,
+      "tags": [
+        "vegan",
+        "local"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=The%20Fiction%20Kitchen%2C%20428%20S%20Dawson%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Sun 2:30 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "The Golden Dragon",
+      "cuisine": "Chinese",
+      "address": "2402 Hillsborough St",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "value",
+        "takeout"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=The%20Golden%20Dragon%2C%202402%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9:30 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "The Pit",
+      "cuisine": "North Carolina barbecue",
+      "address": "328 W Davie St",
+      "price": 3,
+      "wait": 32,
+      "tags": [
+        "barbecue",
+        "groups"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=The%20Pit%2C%20328%20W%20Davie%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM • Fri–Sat 11 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "The Raleigh Times",
+      "cuisine": "American • Bar",
+      "address": "14 E Hargett St",
+      "price": 2,
+      "wait": 26,
+      "tags": [
+        "rooftop",
+        "late night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=The%20Raleigh%20Times%2C%2014%20E%20Hargett%20St%2C%20Raleigh%2C%20NC",
+      "closing": "11 PM • Fri–Sat 2 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Village Deli & Grill",
+      "cuisine": "Deli • American",
+      "address": "500 Daniels St",
+      "price": 1,
+      "wait": 14,
+      "tags": [
+        "sandwiches",
+        "local"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Village%20Deli%20%26%20Grill%2C%20500%20Daniels%20St%2C%20Raleigh%2C%20NC",
+      "closing": "9 PM • Sun 4 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Waffle House — Hillsborough",
+      "cuisine": "Diner • Breakfast",
+      "address": "3909 Hillsborough St",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "breakfast",
+        "late night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Waffle%20House%20%E2%80%94%20Hillsborough%2C%203909%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "24 hours",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Whiskey Kitchen",
+      "cuisine": "Southern • Whiskey bar",
+      "address": "201 W Martin St",
+      "price": 2,
+      "wait": 26,
+      "tags": [
+        "patio",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Whiskey%20Kitchen%2C%20201%20W%20Martin%20St%2C%20Raleigh%2C%20NC",
+      "closing": "Midnight • Sun 10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Wild Cook’s Indian Grill",
+      "cuisine": "Indian",
+      "address": "3212 Hillsborough St",
+      "price": 2,
+      "wait": 20,
+      "tags": [
+        "halal",
+        "sit-down"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Wild%20Cook%E2%80%99s%20Indian%20Grill%2C%203212%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM daily",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Wings Over Raleigh",
+      "cuisine": "Wings • American",
+      "address": "2900 Hillsborough St",
+      "price": 1,
+      "wait": 20,
+      "tags": [
+        "wings",
+        "late night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Wings%20Over%20Raleigh%2C%202900%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "1 AM • Fri–Sat 3 AM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Wye Hill Kitchen & Brewing",
+      "cuisine": "American • Brewery",
+      "address": "201 S Boylan Ave",
+      "price": 3,
+      "wait": 28,
+      "tags": [
+        "patio",
+        "date night"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Wye%20Hill%20Kitchen%20%26%20Brewing%2C%20201%20S%20Boylan%20Ave%2C%20Raleigh%2C%20NC",
+      "closing": "10 PM",
+      "sourceType": "maps-search"
+    },
+    {
+      "name": "Zaxby’s — Hillsborough",
+      "cuisine": "Chicken",
+      "address": "2901 Hillsborough St",
+      "price": 1,
+      "wait": 16,
+      "tags": [
+        "chicken",
+        "quick"
+      ],
+      "href": "https://www.google.com/maps/search/?api=1&query=Zaxby%E2%80%99s%20%E2%80%94%20Hillsborough%2C%202901%20Hillsborough%20St%2C%20Raleigh%2C%20NC",
+      "closing": "Midnight daily",
+      "sourceType": "maps-search"
+    }
+  ]
+}
