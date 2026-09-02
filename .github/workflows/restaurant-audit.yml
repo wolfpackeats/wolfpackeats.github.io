@@ -1,0 +1,163 @@
+name: Restaurant data audit
+
+on:
+  schedule:
+    - cron: "17 11 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: restaurant-data-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the guide
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build the review queue
+        run: |
+          node <<'NODE'
+          const fs = require("node:fs");
+          (async () => {
+          const manifest = JSON.parse(fs.readFileSync("restaurants-audit.json", "utf8"));
+          const findings = [];
+          const add = (severity, restaurant, check, detail) => findings.push({ severity, restaurant, check, detail });
+
+          const names = new Map();
+          const addresses = new Map();
+          for (const restaurant of manifest.restaurants) {
+            names.set(restaurant.name, (names.get(restaurant.name) || 0) + 1);
+            const addressKey = restaurant.address.trim().toLowerCase();
+            addresses.set(addressKey, [...(addresses.get(addressKey) || []), restaurant.name]);
+            if (/check current|verify before|unknown/i.test(restaurant.closing)) {
+              add("high", restaurant.name, "hours", "Closing schedule still needs direct verification.");
+            }
+            if (restaurant.sourceType === "maps-search") {
+              add("medium", restaurant.name, "source", "Replace the Maps search with a first-party menu or location page when one is available.");
+            }
+            if (!/^https:\/\//i.test(restaurant.href)) {
+              add("high", restaurant.name, "security", "Details URL is not HTTPS.");
+            }
+          }
+          for (const [name, count] of names) {
+            if (count > 1) add("high", name, "duplicate", `${count} records share the same restaurant name.`);
+          }
+          for (const [address, restaurants] of addresses) {
+            if (restaurants.length > 2) add("low", restaurants[0], "shared address", `${restaurants.length} listings share ${address}; confirm suites or food-court locations.`);
+          }
+
+          const direct = manifest.restaurants.filter((restaurant) => restaurant.sourceType === "direct");
+          const batches = [];
+          for (let index = 0; index < direct.length; index += 8) batches.push(direct.slice(index, index + 8));
+          for (const batch of batches) {
+            await Promise.all(batch.map(async (restaurant) => {
+              const controller = new AbortController();
+              const timer = setTimeout(() => controller.abort(), 12000);
+              try {
+                let response = await fetch(restaurant.href, {
+                  method: "HEAD",
+                  redirect: "follow",
+                  signal: controller.signal,
+                  headers: { "user-agent": "Raleigh-Wolf-Bites-Auditor/1.0" },
+                });
+                if (response.status === 403 || response.status === 405) {
+                  response = await fetch(restaurant.href, {
+                    method: "GET",
+                    redirect: "follow",
+                    signal: controller.signal,
+                    headers: { "user-agent": "Raleigh-Wolf-Bites-Auditor/1.0" },
+                  });
+                }
+                if (!response.ok) add(response.status >= 500 ? "high" : "medium", restaurant.name, "link", `First-party page returned HTTP ${response.status}.`);
+              } catch (error) {
+                add("medium", restaurant.name, "link", `First-party page could not be checked: ${error.name}.`);
+              } finally {
+                clearTimeout(timer);
+              }
+            }));
+          }
+
+          const order = { high: 0, medium: 1, low: 2 };
+          findings.sort((a, b) => order[a.severity] - order[b.severity] || a.restaurant.localeCompare(b.restaurant));
+          const counts = findings.reduce((result, finding) => {
+            result[finding.severity] += 1;
+            return result;
+          }, { high: 0, medium: 0, low: 0 });
+          const rows = findings.map((finding) => `| ${finding.severity.toUpperCase()} | ${finding.restaurant.replaceAll("|", "\\|")} | ${finding.check} | ${finding.detail.replaceAll("|", "\\|")} |`);
+          const body = [
+            "<!-- rwb-restaurant-audit -->",
+            "# Restaurant audit review queue",
+            "",
+            `Generated from release **${manifest.release}** on ${new Date().toISOString()}.`,
+            "",
+            `**${findings.length} findings:** ${counts.high} high, ${counts.medium} medium, ${counts.low} low.`,
+            "",
+            "This automation never edits restaurant data. Review each finding, verify it against a first-party source, then update the guide in a normal release.",
+            "",
+            "| Priority | Restaurant | Check | Finding |",
+            "| --- | --- | --- | --- |",
+            ...(rows.length ? rows : ["| — | — | — | No findings |"]),
+            "",
+          ].join("\n");
+          fs.writeFileSync("audit-report.md", body);
+          fs.writeFileSync("audit-summary.json", JSON.stringify({ count: findings.length, ...counts }));
+          })().catch((error) => {
+            console.error(error);
+            process.exitCode = 1;
+          });
+          NODE
+
+      - name: Create or update the GitHub review issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("node:fs");
+            const body = fs.readFileSync("audit-report.md", "utf8");
+            const summary = JSON.parse(fs.readFileSync("audit-summary.json", "utf8"));
+            const title = "Restaurant audit review queue";
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+            const existing = issues.find((issue) => issue.title === title && issue.body?.includes("rwb-restaurant-audit"));
+            if (summary.count === 0) {
+              if (existing) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: existing.number,
+                  body,
+                  state: "closed",
+                });
+              }
+              return;
+            }
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+            }
